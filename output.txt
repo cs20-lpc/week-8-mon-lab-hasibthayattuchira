@@ -1,0 +1,37 @@
+integer stack test
+pushed 1,2,3: top       3
+        2
+        1
+top: 3
+after one pop: top      2
+        1
+pushed 4,5: top 5
+        4
+        2
+        1
+Before rotate: top      5
+        4
+        2
+        1
+After rotate right: top 4
+        2
+        1
+        5
+After rotate left: top  5
+        4
+        2
+        1
+after clear: Stack is empty, no elements to display.
+string stack test
+pushed three apples: top        blue apple
+        red banana
+        green apple
+top: blue apple
+after one pop: top      red banana
+        green apple
+Before rotate: top      red banana
+        green apple
+After rotate right: top green apple
+        red banana
+After rotate left: top  red banana
+        green apple
